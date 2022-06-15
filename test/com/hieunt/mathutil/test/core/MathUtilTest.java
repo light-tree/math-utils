@@ -5,11 +5,9 @@
  */
 package com.hieunt.mathutil.test.core;
 
-//import org.junit.Test;
-
+import org.junit.Test;
 import com.hieunt.mathutil.core.MathUtil;
 import org.junit.Assert;
-import org.junit.Test;
 
 //import static org.junit.Assert.*;
 

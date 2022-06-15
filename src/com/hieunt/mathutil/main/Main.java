@@ -34,5 +34,18 @@ public class Main {
         System.out.println("5! = 120 (expected);" );
         System.out.println("5! = " + actual + " (actual)");
     }
+    //Đệ quy là hiện tượng gọi lại chính mình với 1 quy mô khác
+    //vd: búp bê nga, giống nhau và lồng trong nhau
+    //búp bê to, nhỏ hơn, nhỏ nhỏ hơn, và nhỏ hơn nữa ... đến điểm dừng
     
+    //tính 6!
+    //n! = 1.2.3.4.5.6. ... .n
+    //6! = 6.5!
+    //5! = 5.4!
+    //4! = 4.3!
+    //3! = 3.2!
+    //2! = 2.1! --> điểm dừng
+    //1! = 1
+    //quy ước 1! = 0! = 1;
+    // chốt: n! = n.(n-1)!
 }
